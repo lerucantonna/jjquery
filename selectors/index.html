@@ -1,0 +1,69 @@
+c
+<div id="container">
+        <h1 id="heading1">Heading One</h1>
+        <p id="para1"> Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+            Dolores, omnis aliquid tempore, enim<span> consequatur</span> esse earum quod
+            assumenda repellendus a neque asperiores ad, inventore nulla facilis
+            libero eos vitae quam!</p>
+
+            <h1 class="heading2">Heading Two</h1>
+            <p class="para2"> Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+                Dolores, omnis aliquid tempore, enim<span> consequatur</span> esse earum quod
+                assumenda repellendus a neque asperiores ad, inventore nulla facilis
+                libero eos vitae quam!</p>
+                <ul id="list">
+                    <li>List Item</li>
+                    <li>List Item</li>
+                    <li>List Item</li>
+                    <li>List Item</li> 
+                    <li>List Item</li>
+                    <li>List Item</li>
+                    <li>List Item</li>
+                  
+                </ul>
+                <input type="button" value="Button 1">
+                <input type="submit" value="submit">
+                <input type="text">
+                <a href="http://google.com">Google</a>
+                <a href="http://yahoo.com">Yahoo</a>
+
+                <h3> Mouse Events</h3>
+                <button id="btn2">Button 2</Button>
+                <button id="btn3">Button 3</Button>
+
+
+             
+</div>
+<script>
+     // $('h1').hide();
+    //$('h1#heading1').hide();
+    //$('.heading2').hide();  
+    $(' p span').css( 'color' , 'red');
+    $( 'ul#list li:first').css('color' , 'red');
+    $( 'ul#list li:last').css('color' , 'green');
+    $( 'ul#list li:even').css('background-color' , 'yellow');
+    $( 'ul#list li:odd').css('background-color' , '#ccc');
+    $( 'ul#list li:nth-child(3n)').css('list-style', 'none');
+    $( ':text').hide();
+    $('[href]').css('color' , 'red');
+$('a[href="http://yahoo.com"]').css('color' , 'green');
+//$('*').hide();
+  
+   
+
+
+
+     
+
+</script>
+
+
+
+
+
+
+
+         
+    
+</body>
+</html> 
